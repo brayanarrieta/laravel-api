@@ -42,7 +42,7 @@ php artisan artisan db:seed
 
 * **Brayan Arrieta**
 
-See also the list of [contributors](https://github.com/BrayanArrieta/laravel-api-jwt-auth/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/BrayanArrieta/laravel-api/contributors) who participated in this project.
 
 ## License
 This project is licensed under the ISC License
