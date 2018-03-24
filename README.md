@@ -1,6 +1,5 @@
-# Laravel API JWT-Auth
-
-The project's goal is showing how you can integrate JWT-Auth in a Laravel API for the back-end that can be used for example for a client develop with the technology called Angular 5. This project show how you can create a secure project. **You can test the token with the request POST localhost:8000/api/auth/login?email=ryanchenkie@gmail.com&password=secret**
+# Laravel API
+This project consist in a simple back-end API for use the CRUD operations in simple client in the technology Angular 5.
 
 ## Getting Started
 
@@ -11,11 +10,11 @@ These instructions will get you a copy of the project up and running on your loc
 To install the project you will need to have  [Composer](https://getcomposer.org/) and MySQL. [Composer](https://getcomposer.org/) is a tool for dependency management in PHP. For the case of MySQL you can use [XAMPP](https://www.apachefriends.org/es/index.html) or [MySQL Workbench](https://dev.mysql.com/downloads/workbench/)
 
 
-### Clone Laravel API JWT-Auth
-Clone the Laravel API JWT-Auth repository using git:
+### Clone Laravel API 
+Clone the Laravel API repository using git:
 ```
-git clone https://github.com/BrayanArrieta/laravel-api-jwt-auth.git
-cd laravel-api-jwt-auth
+git clone https://github.com/BrayanArrieta/laravel-api.git
+cd laravel-api
 ```
 ### Dependencies
 For get the dependencies of the project.
@@ -24,7 +23,7 @@ composer update
 composer install
 ```
 ### Installing
-Follow these steps to configure the database of the application. First of all you need to create a database with the name "jwt-auth"
+Follow these steps to configure the database of the application. First of all you need to create a database with the name "homestead"
 ```
 php artisan migrate
 php artisan artisan db:seed
